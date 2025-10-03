@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas de Envio (10x7 e 10x15)</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <div class="etiqueta etiqueta-10x07">
+        
+        <div class="bloco bloco-header">
+            NOME DA TRANSPORTADORA
+        </div>
+
+        <div class="bloco bloco-nf-volume">
+            <div class="info-item">
+                <span class="rotulo">NF:</span> ${nfe.numero}
+            </div>
+            <div class="info-item">
+                <span class="rotulo">VOLUME:</span> ${i}/${totalVolumes}
+            </div>
+        </div>
+
+        <div class="bloco bloco-rem-dest">
+            <div class="info-linha">REMETENTE: ${empresaConfig.nome}</div>
+            <div class="info-linha">DESTINATÁRIO: ${nfe.destinatario}</div>
+        </div>
+        
+        <div class="bloco bloco-endereco">
+            <span class="rotulo rotulo-grande">END DE ENTREGA:</span> ${nfe.endereco}
+        </div>
+        
+        <div class="bloco bloco-cidade">
+            <span class="rotulo rotulo-grande">CIDADE:</span> ${nfe.cidade}
+        </div>
+
+    </div>
+    
+    <div class="etiqueta etiqueta-10x15">
+        
+        <div class="bloco bloco-header">
+            NOME DA TRANSPORTADORA
+        </div>
+
+        <div class="bloco bloco-nf-volume">
+            <div class="info-item">
+                <span class="rotulo">NF:</span> ${nfe.numero}
+            </div>
+            <div class="info-item">
+                <span class="rotulo">VOLUME:</span> ${i}/${totalVolumes}
+            </div>
+        </div>
+
+        <div class="bloco bloco-rem-dest">
+            <div class="info-linha">REMETENTE: ${empresaConfig.nome}</div>
+            <div class="info-linha">DESTINATÁRIO: ${nfe.destinatario}</div>
+        </div>
+        
+        <div class="bloco bloco-endereco">
+            <span class="rotulo rotulo-grande">END DE ENTREGA:</span> ${nfe.endereco}
+        </div>
+        
+        <div class="bloco bloco-cidade">
+            <span class="rotulo rotulo-grande">CIDADE:</span> ${nfe.cidade}
+        </div>
+
+    </div>
+
+</body>
+</html>

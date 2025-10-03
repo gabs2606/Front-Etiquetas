@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    display: block; 
+    background-color: #f0f0f0;
+}
+
+.etiqueta {
+    border: 4px solid black; 
+    padding: 5px; 
+    box-sizing: border-box; 
+    background-color: white;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.etiqueta-10x07 {
+    width: 100mm;
+    height: 70mm;
+}
+
+.etiqueta-10x15 {
+    width: 100mm;
+    height: 150mm;
+}
+
+.rotulo {
+    font-weight: bold;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    margin-right: 5px;
+    white-space: nowrap;
+    font-size: 16px; 
+}
+
+.bloco {
+    border-top: 2px solid black;
+    padding: 5px 0;
+    line-height: 1.2;
+}
+
+.bloco-header {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-top: none; 
+    padding-bottom: 5px;
+}
+
+.bloco-nf-volume {
+    display: flex;
+    justify-content: space-between; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bloco-rem-dest {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.bloco-rem-dest .info-linha {
+    font-weight: normal; 
+    margin-bottom: 3px;
+}
+
+.bloco-endereco, .bloco-cidade {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.rotulo-grande {
+    font-size: 18px; 
+}
+
+.bloco-cidade {
+    border-bottom: none;
+}
